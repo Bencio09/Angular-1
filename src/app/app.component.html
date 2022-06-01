@@ -1,13 +1,20 @@
 <table>
   <tr>
-    <th>ID</th>
+    <th id="id">ID</th>
     <th>Nome</th>
     <th>Cognome</th>
+    <th>Data di Nascita</th>
+    <th>Genere</th>
+    <th>Data Assunzione</th>
+    <th id="azione">Azione</th>    
   </tr>
  <tr *ngFor="let element of employees">
-   <td>{{element.id}}</td>
-   <td>{{element.firstName}}</td>
-   <td>{{element.lastName}}</td>
-   <td><button (click)="Edit()">Modifica</button></td>
-  </tr>
+   <td id="id">{{element.id}}</td>
+   <td id="nome">{{element.firstName}}</td>
+   <td id="cognome">{{element.lastName}}</td>
+   <td id="birthdate">{{element.birthDate}}</td>
+   <td id="genere">{{element.gender}}</td>
+   <td id="assunzione">{{element.hireDate}}</td>
+   
+ </tr>
 </table>

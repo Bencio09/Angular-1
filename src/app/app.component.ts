@@ -9,4 +9,6 @@ import data from './_files/data.json';
 export class AppComponent {
   title = "Gestore Impiegati";
   employees = data;
+
+  
 }
