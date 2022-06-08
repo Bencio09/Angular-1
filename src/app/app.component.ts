@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import data from './_files/data.json';
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,5 @@ import data from './_files/data.json';
 })
 export class AppComponent {
   title = "Gestore Impiegati";
-  employees = data;
-
   
 }
